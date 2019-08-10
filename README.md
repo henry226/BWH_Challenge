@@ -1,1 +1,4 @@
-# BWH_Challenge
+# BWH_Challenge 
+
+### Problems to Solve  
+Create a very simple program that has a two buttons and a table.  Button 1 should call you node.js backend and return a list of flowers (20 or so – one must be “sunflower”) from a mysql database – that you will create.  The flowers should have a name and description.  The second button, when clicked will filter  the records to only show sunflower.  
