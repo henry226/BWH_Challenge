@@ -22,3 +22,26 @@
 ---
 
 ### 2. Connect NodeJs with Databases.
+* [server.js](https://github.com/henry226/BWH_Challenge/blob/master/server.js)
+```javaScript
+connected to db
+[ RowDataPacket {
+    id: 1,
+    name: 'Amaryllis',
+    description:
+     'The amaryllis is a popular bulb plant with large lily-like blooms and long, thick stems. Its fragrant flowers can be found
+in several colors. It is also known as the belladonna lily.' },
+  RowDataPacket {
+    id: 2,
+    name: 'Aster',
+    description:
+     'Small daisy-like flower often used to accent floral arrangements. Asters are typically found in shades of white or light to dark pink. New larger varieties such as the matsumoto aster can also be found in reds, purples and yellows.' },
+  RowDataPacket {
+    id: 3,
+    name: 'Begonia',
+    description:
+     'A blooming plant often used in gardens or potted for indoor decoration. There are a variety of begonias available, which are appreciated for their brightly colored leaves and flowers.' }
+.
+.
+.
+```   
