@@ -17,3 +17,8 @@
 --- 
 
 ### 1. Create databases and tables.
+* [flowers.sql](https://github.com/henry226/BWH_Challenge/blob/master/flowers.sql)
+
+---
+
+### 2. Connect NodeJs with Databases.
