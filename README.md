@@ -22,7 +22,8 @@
 ---
 
 ### 2. Connect NodeJs with Databases.
-* [server.js](https://github.com/henry226/BWH_Challenge/blob/master/server.js)
+* [server.js](https://github.com/henry226/BWH_Challenge/blob/master/server.js)  
+Output:
 ```javaScript
 connected to db
 [ RowDataPacket {
@@ -41,7 +42,9 @@ in several colors. It is also known as the belladonna lily.' },
     name: 'Begonia',
     description:
      'A blooming plant often used in gardens or potted for indoor decoration. There are a variety of begonias available, which are appreciated for their brightly colored leaves and flowers.' }
-.
-.
-.
+	.
+	.
+	.
 ```   
+
+---
