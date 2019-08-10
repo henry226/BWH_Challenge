@@ -12,7 +12,8 @@
 1. Create databases and tables.
 2. Connect NodeJs with Databases.
 3. Create Angular frontend.
-4. COnnect Angular with NodeJs.
+4. Connect Angular with NodeJs.
 
 --- 
 
+### 1. Create databases and tables.

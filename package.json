@@ -1,0 +1,23 @@
+{
+  "name": "bwh_challenge",
+  "version": "1.0.0",
+  "description": "* Create a very simple program that has a two buttons and a table.\r * Button 1 should call you node.js backend and return a list of flowers (20 or so – one must be “sunflower”) from a mysql database – that you will create.\r * The flowers should have a name and description.\r * The second button, when clicked will filter  the records to only show sunflower.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry226/BWH_Challenge.git"
+  },
+  "author": "Henry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henry226/BWH_Challenge/issues"
+  },
+  "homepage": "https://github.com/henry226/BWH_Challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}
