@@ -1,0 +1,65 @@
+<br>
+<div class ="container text-center">
+  <h1>{{ title }}</h1>
+  <button (click)="list()" type="button" class="btn btn-outline-success btn-lg">List of Flowers</button>
+  <button (click)="sunflower()" type="button" class="btn btn-outline-warning btn-lg">Find Sunflower</button>
+</div>
+<br>
+<div class="container">
+  <table *ngIf="showTable" class="table table-bordered">
+    <thead class="text-center">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let f of flowers">
+      <tr>
+        <th scope="row" class="text-center">{{ f.id }}</th>
+        <td>{{ f.name }}</td>
+        <td>{{ f.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table *ngIf="showSunFlower" class="table table-bordered">
+    <thead class="text-center">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let f of flowers | sunflower">
+      <tr>
+        <th scope="row" class="text-center">{{ f.id }}</th>
+        <td>{{ f.name }}</td>
+        <td>{{ f.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<!--<h2>My Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedHero">
+
+  <h2>{{selectedHero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedHero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedHero.name" placeholder="name"/>
+    </label>
+  </div>
+
+</div> -->
