@@ -1,6 +1,6 @@
 # BWH_Challenge 
 
-### Problems to Solve  
+### Problems to Solve:  
 * Create a very simple program that has a two buttons and a table.
 * Button 1 should call you node.js backend and return a list of flowers (20 or so – one must be “sunflower”) from a mysql database – that you will create.
 * The flowers should have a name and description.
@@ -8,4 +8,11 @@
 
 ---
 
-### Step by Step  
+### Step by Step:  
+1. Create databases and tables.
+2. Connect NodeJs with Databases.
+3. Create Angular frontend.
+4. COnnect Angular with NodeJs.
+
+--- 
+
