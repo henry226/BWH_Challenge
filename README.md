@@ -23,7 +23,6 @@
 
 ### 2. Connect NodeJs with Databases.
 * [server.js](https://github.com/henry226/BWH_Challenge/blob/master/server.js)  
-Output:
 ```javaScript
 connected to db
 [ RowDataPacket {
@@ -48,3 +47,5 @@ in several colors. It is also known as the belladonna lily.' },
 ```   
 
 ---
+
+### 3. Create Angular frontend.
