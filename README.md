@@ -16,7 +16,7 @@
 
 --- 
 
-### 1. Create databases and tables.
+### 1. Create databases and tables.  
 * [flowers.sql](https://github.com/henry226/BWH_Challenge/blob/master/flowers.sql)
 
 ---
