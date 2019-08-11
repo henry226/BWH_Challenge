@@ -1,12 +1,17 @@
 <br>
+
 <div class ="container text-center">
   <h1>{{ title }}</h1>
   <button (click)="list()" type="button" class="btn btn-outline-success btn-lg">List of Flowers</button>
   <button (click)="sunflower()" type="button" class="btn btn-outline-warning btn-lg">Find Sunflower</button>
 </div>
+
 <br>
+
 <div class="container">
-  <table *ngIf="showTable" class="table table-bordered">
+
+  <table *ngIf="showTable || showSunFlower" class="table table-bordered">
+
     <thead class="text-center">
       <tr>
         <th scope="col">#</th>
@@ -14,30 +19,24 @@
         <th scope="col">Description</th>
       </tr>
     </thead>
-    <tbody  *ngFor="let f of listFlowers">
-      <tr>
-          <th scope="row" class="text-center">{{ f.id }}</th>
-          <td>{{ f.name }}</td>
-          <td>{{ f.description }}</td>
-      </tr>
+
+    <tbody *ngIf="showTable">
+        <tr *ngFor="let f of listFlowers">
+            <th scope="row" class="text-center">{{ f.id }}</th>
+            <td>{{ f.name }}</td>
+            <td>{{ f.description }}</td>
+        </tr>
     </tbody>
+
+    <tbody *ngIf="showSunFlower">
+        <tr *ngFor="let f of listFlowers | sunflower">
+            <th scope="row" class="text-center">{{ f.id }}</th>
+            <td>{{ f.name }}</td>
+            <td>{{ f.description }}</td>
+        </tr>
+    </tbody>
+
   </table>
 
-  <table *ngIf="showSunFlower" class="table table-bordered">
-    <thead class="text-center">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Name</th>
-        <th scope="col">Description</th>
-      </tr>
-    </thead>
-    <tbody *ngFor="let f of listFlowers | sunflower">
-      <tr>
-        <th scope="row" class="text-center">{{ f.id }}</th>
-        <td>{{ f.name }}</td>
-        <td>{{ f.description }}</td>
-      </tr>
-    </tbody>
-  </table>
 </div>
 
