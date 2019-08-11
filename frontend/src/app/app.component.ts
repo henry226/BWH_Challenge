@@ -1,6 +1,8 @@
 import { Component, OnInit  } from '@angular/core';
+import { FlowersService } from './flowers.service';
 import { Flowers } from './flowers';
-import { FLOWERS } from './flowerlist';
+
+
 
 @Component({
   selector: 'app-root',
@@ -10,21 +12,14 @@ import { FLOWERS } from './flowerlist';
 
 
 export class AppComponent implements OnInit {
+
+  constructor(private flowerApi: FlowersService) {
+  }
   title = 'BWH Coding Challenge';
   showTable = false;
   showSunFlower = false;
+  listFlowers: Flowers[];
 
-  flowers = FLOWERS;
-  selectedFlower: Flowers;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-  onSelect(flower: Flowers): void {
-    this.selectedFlower = flower;
-  }
 
   sunflower() {
     // console.log('Sunflower button clicked');
@@ -41,6 +36,17 @@ export class AppComponent implements OnInit {
     }
      this.showTable = !this.showTable;
    }
+
+   ngOnInit() {
+     this.flowerApi.getFlowers()
+     .subscribe(
+       data => {
+          // console.log(data.rows);
+          this.listFlowers = data.rows;
+       }
+     );
+   }
+
 }
 
 
