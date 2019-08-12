@@ -17,12 +17,20 @@
 --- 
 
 ### 1. Create databases and tables.  
-* [flowers.sql](https://github.com/henry226/BWH_Challenge/blob/master/flowers.sql)
+* [flowers.sql](https://github.com/henry226/BWH_Challenge/blob/master/backend/flowers.sql)
+```sql
+CREATE TABLE `flowers` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `description` varchar(500) NOT NULL
+)
+```
 
 ---
 
 ### 2. Connect NodeJs with Databases.
-* [server.js](https://github.com/henry226/BWH_Challenge/blob/master/server.js)  
+* [server.js](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
+Listening on port 1337...
 ```javaScript
 connected to db
 [ RowDataPacket {
