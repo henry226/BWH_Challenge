@@ -57,9 +57,9 @@ in several colors. It is also known as the belladonna lily.' },
 ---
 
 ### 3. Create Angular frontend.
-* [app.component.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
-* [app.component.html](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
-* [app.module.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
+* [app.component.ts](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/app.component.ts)  
+* [app.component.html](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/app.component.html)  
+* [app.module.ts](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/app.module.ts)  
 
 #### Now Angular frontend looks like:  
 ![frontend image](https://github.com/henry226/BWH_Challenge/blob/master/images/Angular_Frontend.png)
@@ -67,10 +67,10 @@ in several colors. It is also known as the belladonna lily.' },
 ---
 
 ### 4. Connect Angular with NodeJs.
-* [flowers.service.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
-* [flowers.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
-* [pipes](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
-  * [sunflower.pipe.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)
+* [flowers.service.ts](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/flowers.service.ts) 
+* [flowers.ts](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/flowers.ts) 
+* [pipes](https://github.com/henry226/BWH_Challenge/tree/master/frontend/src/app/pipes) 
+  * [sunflower.pipe.ts](https://github.com/henry226/BWH_Challenge/blob/master/frontend/src/app/pipes/sunflower.pipe.ts)
   
 In the Angular frontend, run:
 ```ts
