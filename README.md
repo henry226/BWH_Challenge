@@ -80,6 +80,6 @@ In the Node.Js backend, run:
 node server.js
 ```  
 #### List of flowers
-![Flower list](https://github.com/henry226/BWH_Challenge/blob/master/images/Flower_list.png)  
+![Flower list](https://github.com/henry226/BWH_Challenge/blob/master/images/Flower%20list.png)  
 #### Sunflower
 ![Flower list](https://github.com/henry226/BWH_Challenge/blob/master/images/SunFlower.png)
