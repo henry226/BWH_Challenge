@@ -60,6 +60,6 @@ in several colors. It is also known as the belladonna lily.' },
 * [app.component.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
 * [app.component.html](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
 * [app.module.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
-![frontend image](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![frontend image](https://github.com/henry226/BWH_Challenge/blob/master/images/Angular_Frontend.png)
 
 ---
