@@ -60,6 +60,21 @@ in several colors. It is also known as the belladonna lily.' },
 * [app.component.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
 * [app.component.html](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
 * [app.module.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
+Now Angular frontend looks like:  
 ![frontend image](https://github.com/henry226/BWH_Challenge/blob/master/images/Angular_Frontend.png)
 
 ---
+
+### 4. Connect Angular with NodeJs.
+* [flowers.service.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
+* [flowers.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
+* [pipes](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
+  * [sunflower.pipe.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
+In the Angular frontend, run:
+```ts
+ng serve -o
+```  
+In the Node.Js backend, run:
+```javaScript
+node server.js
+```
