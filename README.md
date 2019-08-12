@@ -69,7 +69,8 @@ Now Angular frontend looks like:
 * [flowers.service.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
 * [flowers.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
 * [pipes](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js) 
-  * [sunflower.pipe.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)  
+  * [sunflower.pipe.ts](https://github.com/henry226/BWH_Challenge/blob/master/backend/server.js)
+  
 In the Angular frontend, run:
 ```ts
 ng serve -o
@@ -77,4 +78,8 @@ ng serve -o
 In the Node.Js backend, run:
 ```javaScript
 node server.js
-```
+```  
+#### List of flowers
+![Flower list](https://github.com/henry226/BWH_Challenge/blob/master/images/Flower_list.png)  
+#### Sunflower
+![Flower list](https://github.com/henry226/BWH_Challenge/blob/master/images/SunFlower.png)
